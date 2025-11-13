@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Falling Notes Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Falling Notes Game</h1>
+    <button id="startButton">ゲームスタート (D, F, J, K キー)</button>
+    <div id="game-area">
+        <div id="lanes">
+            <div class="lane" id="lane1"></div>
+            <div class="lane" id="lane2"></div>
+            <div class="lane" id="lane3"></div>
+            <div class="lane" id="lane4"></div>
+        </div>
+        <div id="judge-line">
+            <div class="judge-target" id="target1"></div>
+            <div class="judge-target" id="target2"></div>
+            <div class="judge-target" id="target3"></div>
+            <div class="judge-target" id="target4"></div>
+        </div>
+    </div>
+    <div id="score">SCORE: <span id="score-value">0</span></div>
+    <div id="combo">COMBO: <span id="combo-value">0</span></div>
+    <div id="judge-text"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
